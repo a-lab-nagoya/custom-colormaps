@@ -2,7 +2,7 @@ import demonstration as demo
 
 
 def test_author():
-    assert demo.__author__ == "Akio Taniguchi"
+    assert demo.__author__ == "Rin Yamada"
 
 
 def test_version():
