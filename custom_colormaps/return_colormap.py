@@ -12,8 +12,8 @@ def get_colordata(name="Dark_rainbow"):
     ----------
     name : str
         Colormap name. Currently, ``Dark_rainbow``, ``rainbow2``, ``sls_SAOImage``,
-        ``rainbow3``, ``rainbow_SAOImage``, ``b_SAOImage``, ``spectrum_Starlink``, and ``Hue_sat_value2``
-        are supported.
+        ``rainbow3``, ``rainbow_SAOImage``, ``b_SAOImage``, ``spectrum_Starlink``,
+        and ``Hue_sat_value2`` are supported.
     """
     color = toml.load(open("../colordata/cmapdata.toml"))
     color_numbers = color["Table"][name]
