@@ -1,5 +1,5 @@
 __author__ = "Rin Yamada"
-__version__ = "0.2.7"
+__version__ = "0.2.9"
 
 from . import return_colormap
 from . import main
