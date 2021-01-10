@@ -1,6 +1,6 @@
 # Project information
-author = "Akio Taniguchi"
-copyright = "2020, Akio Taniguchi"
+author = "Rin Yamada"
+copyright = "2020, Rin Yamada"
 
 
 # General configuration
@@ -20,5 +20,4 @@ html_logo = "_static/logo.svg"
 html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "github_url": "https://github.com/astropenguin/python-package-template/",
-    "twitter_url": "https://twitter.com/astropengu_in/",
 }
