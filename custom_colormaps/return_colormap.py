@@ -4,12 +4,38 @@ import toml
 
 
 def get_colordata(name="Dark_rainbow"):
+    """
+
+    Load color map data from setting file
+
+    Parameters
+    ----------
+    name : str
+        Colormap name. Currently, ``Dark_rainbow``, ``rainbow2``, ``sls_SAOImage``,
+        ``rainbow3``, ``rainbow_SAOImage``, ``b_SAOImage``, ``spectrum_Starlink``, and ``Hue_sat_value2``
+        are supported.
+    """
     color = toml.load(open("../colordata/cmapdata.toml"))
     color_numbers = color["Table"][name]
     return color_numbers
 
 
 def get_colormap(color_numbers, gamma=1.0, reverse=False):
+    """
+
+    Make LinearSegmentedColormap.
+
+    Parameters
+    ----------
+    color_numbers : list
+        Values to determin colors
+
+    gamma : float
+        gamma corrections for the selected colormap.
+
+    reverse : bool
+        Chose if you use reversed colormap or not.
+    """
     if reverse:
         cmap_list = color_numbers[::-1, :]
     else:
