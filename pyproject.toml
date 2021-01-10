@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "custom-colormaps"
-version = "0.3.2"
+version = "0.3.3"
 description = "custom colormaps "
 authors = ["Rin Yamada <yamada@a.phys.nagoya-u.ac.jp>"]
 license = "MIT"
@@ -12,6 +12,7 @@ documentation = "https://a-lab-nagoya.github.io/custom-colormaps/"
 python = "^3.6"
 numpy = "^1.19.5"
 matplotlib = "^3.3.3"
+toml = "^0.10.2"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b"
