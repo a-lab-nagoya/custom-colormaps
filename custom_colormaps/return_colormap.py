@@ -3,7 +3,7 @@ import numpy as np
 import toml
 
 
-def get_colordata(name="Dark_rainbow"):
+def get_colordata(name):
     """
 
     Load color map data from setting file
