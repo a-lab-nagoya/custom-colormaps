@@ -20,5 +20,5 @@ jobs:
           pip install poetry
       - name: Publish package
         run: |
-          poetry config pypi-token.pypi ${{ secrets.PYPI_TOKEN }}
+          poetry config pypi-AgEIcHlwaS5vcmcCJGIxNWE5M2VjLTY5MzgtNDJkYi04ZDNlLTNiMGM5M2Y3ZjlmNAACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYgXIe1f-9hJBj0aceVv6wALu3Zx6jAYYJ1tCytayuk8wA ${{ secrets.PYPI_TOKEN }}
           poetry publish --build
