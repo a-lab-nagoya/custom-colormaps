@@ -1,9 +1,9 @@
-import demonstration as demo
+import custom_colormaps as ccmap
 
 
 def test_author():
-    assert demo.__author__ == "Rin Yamada"
+    assert ccmap.__author__ == "Rin Yamada"
 
 
 def test_version():
-    assert demo.__version__ == "0.2.0"
+    assert ccmap.__version__ == "0.2.0"

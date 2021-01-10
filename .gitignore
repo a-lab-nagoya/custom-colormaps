@@ -1,5 +1,9 @@
 # Editor settings
 .vscode
+*~*
+
+# Mac
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
