@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "custom-colormaps"
-version = "0.2.9"
-description = "Demo package for learning Python development"
+version = "0.3.0"
+description = "custom colormaps "
 authors = ["Rin Yamada <yamada@a.phys.nagoya-u.ac.jp>"]
 license = "MIT"
 readme = "README.md"
