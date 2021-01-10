@@ -6,3 +6,12 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?label=License&style=flat-square)](LICENSE)
 
 This package is a simple extension of matplotlib's colormaps with particular focus on the visualization of radio astronomical maps.
+
+## installation
+```
+pip install custom-colormaps
+```
+
+## Usage
+
+click custom_colormaps package 
