@@ -15,6 +15,7 @@ def get_colormap(color_numbers, gamma=1.0, reverse=False):
     else:
         cmap_list = color_numbers[::-1, :]
 
+    cmap_list = np.array(cmap_list)
     cmap = mpl.colors.LinearSegmentedColormap.from_list(
         name="from_list", colors=cmap_list / 255, gamma=gamma
     )
