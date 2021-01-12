@@ -37,6 +37,8 @@ def get_colormap(color_numbers, gamma=1.0, reverse=False):
     reverse : bool
         Chose if you use reversed colormap or not.
     """
+
+    color_numbers = np.array(color_numbers)
     if reverse:
         cmap_list = color_numbers[::-1, :]
     else:
