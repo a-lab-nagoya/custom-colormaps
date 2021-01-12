@@ -1,0 +1,19 @@
+custom\_colormaps package
+=========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   custom_colormaps.main
+   custom_colormaps.return_colormap
+
+Module contents
+---------------
+
+.. automodule:: custom_colormaps
+   :members:
+   :undoc-members:
+   :show-inheritance:

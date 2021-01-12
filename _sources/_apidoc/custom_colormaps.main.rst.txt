@@ -1,0 +1,7 @@
+custom\_colormaps.main module
+=============================
+
+.. automodule:: custom_colormaps.main
+   :members:
+   :undoc-members:
+   :show-inheritance:
