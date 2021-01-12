@@ -17,7 +17,7 @@ def main(name="Dark_rainbow", gamma=1.0, reverse=False):
         gamma corrections for the selected colormap.
 
     reverse : bool
-        Chose if you use reversed colormap or not.
+        Choose if you use reversed colormap or not.
 
     Examples
     --------
