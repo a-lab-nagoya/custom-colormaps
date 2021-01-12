@@ -1,12 +1,13 @@
 import matplotlib as mpl
 import numpy as np
 import toml
+from pathlib import Path
 
 
 def get_colordata(name):
     """
 
-    Load color map data from setting file
+    Load color map data from setting file.
 
     Parameters
     ----------
@@ -15,7 +16,7 @@ def get_colordata(name):
         ``rainbow3``, ``rainbow_SAOImage``, ``b_SAOImage``, ``spectrum_Starlink``,
         and ``Hue_sat_value2`` are supported.
     """
-    color = toml.load(open("./colordata/cmapdata.toml"))
+    color = toml.load(open(Path(__file__).parent / "colordata" / "cmapdata.toml"))
     color_numbers = color["table"][name]
     return color_numbers
 
@@ -28,7 +29,7 @@ def get_colormap(color_numbers, gamma=1.0, reverse=False):
     Parameters
     ----------
     color_numbers : list
-        Values to determin colors
+        Values to determin colors.
 
     gamma : float
         gamma corrections for the selected colormap.
