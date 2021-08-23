@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "custom-colormaps"
-version = "0.3.4"
+version = "0.3.5"
 description = "custom colormaps "
 authors = ["Rin Yamada <yamada@a.phys.nagoya-u.ac.jp>"]
 license = "MIT"
