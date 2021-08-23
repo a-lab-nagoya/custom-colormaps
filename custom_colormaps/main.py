@@ -21,10 +21,10 @@ def main(name="Dark_rainbow", gamma=1.0, reverse=False):
 
     Examples
     --------
-    >>> from custom_colormap import main
+    >>> from custom_colormap.main import main
     >>> cmap = main(name="Dark_rainbow", gamma=1.0, reverse=False)
     """
     color_numbers = return_colormap.get_colordata(name)
-    cmap = return_colormap.get_colormap(color_numbers, gamma=1.0, reverse=False)
+    cmap = return_colormap.get_colormap(color_numbers, gamma=gamma, reverse=reverse)
 
     return cmap
