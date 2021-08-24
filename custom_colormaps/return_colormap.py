@@ -42,7 +42,7 @@ def get_colormap(color_numbers, gamma=1.0, reverse=False):
     if reverse:
         cmap_list = color_numbers[::-1, :]
     else:
-        cmap_list = color_numbers[::-1, :]
+        cmap_list = color_numbers
 
     cmap_list = np.array(cmap_list)
     cmap = mpl.colors.LinearSegmentedColormap.from_list(
