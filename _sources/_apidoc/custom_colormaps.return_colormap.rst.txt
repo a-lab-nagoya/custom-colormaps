@@ -1,0 +1,7 @@
+custom\_colormaps.return\_colormap module
+=========================================
+
+.. automodule:: custom_colormaps.return_colormap
+   :members:
+   :undoc-members:
+   :show-inheritance:
