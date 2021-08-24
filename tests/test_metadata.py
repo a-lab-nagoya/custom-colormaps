@@ -6,4 +6,4 @@ def test_author():
 
 
 def test_version():
-    assert ccmap.__version__ == "0.3.5"
+    assert ccmap.__version__ == "0.3.6"
